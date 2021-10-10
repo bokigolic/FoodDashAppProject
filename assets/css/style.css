@@ -1,0 +1,158 @@
+:root {
+    --green: #27ae60;
+    --black: #192a56;
+    --lighting-color: #666;
+    --box-shadow: 0.5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2a linear;
+}
+
+
+
+header {
+    background: #b54f4f;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+header .logo {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header .logo i {
+    color: var(--green);
+
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: 5rem 1.5rem;
+    color: white;
+}
+
+header .navbar a:active,
+header .navbar a:hover {
+    color: #000;
+}
+
+header .icons i,
+header .icons a {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover {
+    color: #fff;
+    background: white;
+    transform: rotate(360deg);
+}
+
+header .icons #menu-bars {
+    display: none;
+}
+
+body {
+    background-color: #e1b8b8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.each-brew {
+    padding: 15px;
+    margin: 15px;
+}
+
+.title-el {
+    padding: 15px;
+    border: 3px solid;
+    border-color: #a52a2a;
+    border-radius: 25px;
+    margin: 15px;
+    text-align: center;
+    color: #a52a2a;
+}
+
+.list-el {
+    padding: 5px 0 5px 0;
+    color: #a52a2a;
+    margin: 5px;
+    list-style: none;
+    text-align: center;
+    border: 1px solid;
+    border-color: #a52a2a;
+    border-radius: 25px;
+}
+
+.href-el {
+    color: #a52a2a;
+}
+
+.href-el:hover {
+    color: #fff;
+}
+
+.img-tag {
+    width: 350px;
+    height: 300px;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    padding: 20px 0 20px 0;
+    font-size: 2rem;
+}
+
+address {
+    padding: 20px 0 20px 0;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-list {
+    list-style: none;
+    border: 2px solid;
+    border-color: #a52a2a;
+    border-radius: 25px;
+    padding: 15px 5px 15px 5px;
+    color: #a52a2a;
+    margin: 5px;
+}
+
+.past-searches {
+    padding: 15px 0 15px 0;
+}
